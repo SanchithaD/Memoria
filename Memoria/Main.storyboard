@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lfw-GR-DDc">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Helping Hand-->
+        <scene sceneID="GKM-c1-jRr">
+            <objects>
+                <viewController id="RCZ-hI-wE6" customClass="MainViewController" customModule="LoginSignUpMainScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NjS-1j-yrJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gz2-Rs-qa3">
+                                <rect key="frame" x="98" y="179" width="248" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Main Menu">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="71" name="MarkerFelt-Thin"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="54" translatesAutoresizingMaskIntoConstraints="NO" id="Yof-O7-0p9">
+                                <rect key="frame" x="-63" y="310" width="600" height="497"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWJ-CH-cLI">
+                                        <rect key="frame" x="0.0" y="0.0" width="366" height="84"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="62"/>
+                                        <state key="normal" title="Basic Levels">
+                                            <color key="titleColor" red="0.45261900910000002" green="0.029291526870000001" blue="0.25409606750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAL-eG-Plm">
+                                        <rect key="frame" x="0.0" y="138" width="555" height="84"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="62"/>
+                                        <state key="normal" title="Proper Pencil Hold">
+                                            <color key="titleColor" red="0.45261900910000002" green="0.029291526870000001" blue="0.25409606750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCW-Of-cMB">
+                                        <rect key="frame" x="0.0" y="276" width="373" height="83"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="61"/>
+                                        <state key="normal" title="Leaderboard">
+                                            <color key="titleColor" red="0.45261900910000002" green="0.029291526870000001" blue="0.25409606750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfI-YF-jWF">
+                                        <rect key="frame" x="0.0" y="413" width="600" height="84"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="62"/>
+                                        <state key="normal" title="About Helping Hand">
+                                            <color key="titleColor" red="0.45261900910000002" green="0.029291526870000001" blue="0.25409606750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pencil Logo_ Helping Hand-4" translatesAutoresizingMaskIntoConstraints="NO" id="n0C-nW-B0b">
+                                <rect key="frame" x="-193" y="88" width="16" height="124"/>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDc-hc-ISo">
+                                <rect key="frame" x="118" y="87" width="228" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="582" id="5I1-s3-4ca"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="84" id="OUc-pw-RCb"/>
+                                    <constraint firstAttribute="height" constant="84" id="zcb-Pd-8Ex"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="27"/>
+                                <state key="normal" title="Welcome Guest!">
+                                    <color key="titleColor" red="0.45261900910000002" green="0.029291526870000001" blue="0.25409606750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.72266927960000005" green="1" blue="0.9482512998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TDc-hc-ISo" firstAttribute="top" secondItem="iCK-4p-yKD" secondAttribute="top" constant="-15" id="IXA-OV-Cja"/>
+                            <constraint firstItem="TDc-hc-ISo" firstAttribute="bottom" secondItem="n0C-nW-B0b" secondAttribute="bottom" constant="-55" id="Kf6-je-ZGu"/>
+                            <constraint firstItem="Yof-O7-0p9" firstAttribute="centerY" secondItem="NjS-1j-yrJ" secondAttribute="centerY" constant="110.5" id="Uw5-j9-QRh"/>
+                            <constraint firstItem="iCK-4p-yKD" firstAttribute="trailing" secondItem="n0C-nW-B0b" secondAttribute="trailing" constant="591" id="Z0f-Fc-1Xv"/>
+                            <constraint firstItem="n0C-nW-B0b" firstAttribute="leading" secondItem="NjS-1j-yrJ" secondAttribute="leadingMargin" id="cky-e6-l6Z"/>
+                            <constraint firstItem="iCK-4p-yKD" firstAttribute="trailing" secondItem="TDc-hc-ISo" secondAttribute="trailing" constant="-153" id="ist-vu-GNG"/>
+                            <constraint firstItem="n0C-nW-B0b" firstAttribute="top" secondItem="iCK-4p-yKD" secondAttribute="top" id="rfX-Kl-4bF"/>
+                            <constraint firstItem="Yof-O7-0p9" firstAttribute="centerX" secondItem="NjS-1j-yrJ" secondAttribute="centerX" constant="30" id="rvE-Y0-T99"/>
+                            <constraint firstItem="TDc-hc-ISo" firstAttribute="leading" secondItem="iCK-4p-yKD" secondAttribute="leading" constant="339" id="vxI-5y-P7s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iCK-4p-yKD"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Helping Hand" largeTitleDisplayMode="always" id="FAu-dR-duG">
+                        <barButtonItem key="rightBarButtonItem" title="Login" id="d0i-er-RiC">
+                            <connections>
+                                <action selector="loginUser:" destination="RCZ-hI-wE6" id="C6k-9I-qwT"/>
+                                <segue destination="ryP-5X-eya" kind="show" id="eEI-fU-Ahm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="loginBarButton" destination="d0i-er-RiC" id="yMx-qz-q9C"/>
+                        <outlet property="loginTitle" destination="TDc-hc-ISo" id="LIm-1n-UD1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AEf-Bv-x9x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7026.0869565217399" y="-3979.6875"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="vfb-ER-rtX">
+            <objects>
+                <viewController id="ryP-5X-eya" customClass="LoginViewController" customModule="LoginSignUpMainScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="za5-Hf-ejY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="345" translatesAutoresizingMaskIntoConstraints="NO" id="hDC-7N-L0C">
+                                <rect key="frame" x="37.5" y="707" width="684.5" height="78"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbn-hD-9jI">
+                                        <rect key="frame" x="0.0" y="0.0" width="208.5" height="78"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="57"/>
+                                        <state key="normal" title="Sign Up">
+                                            <color key="titleColor" red="0.45199158029999997" green="0.074652831520000004" blue="0.18746504829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="86H-dl-0iX" kind="show" id="Pav-aw-8g1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rx2-VF-qrs">
+                                        <rect key="frame" x="553.5" y="0.0" width="131" height="78"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="131" id="ceM-hy-1OY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="57"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="0.45199158029999997" green="0.074652831520000004" blue="0.18746504829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loginUser:" destination="ryP-5X-eya" eventType="touchUpInside" id="B98-FV-Ie3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="87" translatesAutoresizingMaskIntoConstraints="NO" id="bBd-ZN-7bh">
+                                <rect key="frame" x="217.5" y="243" width="325" height="469"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oy0-W2-gyH">
+                                        <rect key="frame" x="0.0" y="0.0" width="305.5" height="132"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="114"/>
+                                        <color key="textColor" red="0.45199158029999997" green="0.074652831520000004" blue="0.18746504829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Username" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="65" translatesAutoresizingMaskIntoConstraints="NO" id="0Wt-UZ-bUe">
+                                        <rect key="frame" x="0.0" y="219" width="325" height="81.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="81.5" id="5Wn-5m-ZUF"/>
+                                            <constraint firstAttribute="width" constant="324" id="oyw-ba-2kP"/>
+                                        </constraints>
+                                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="62"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="65" translatesAutoresizingMaskIntoConstraints="NO" id="dN4-aV-KRF">
+                                        <rect key="frame" x="0.0" y="387.5" width="314" height="81.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="314" id="X99-8S-4UH"/>
+                                            <constraint firstAttribute="height" constant="81.5" id="wyg-Wi-kYg"/>
+                                        </constraints>
+                                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="62"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pencil Logo_ Helping Hand-4" translatesAutoresizingMaskIntoConstraints="NO" id="MY6-cj-hWY">
+                                <rect key="frame" x="37.5" y="102" width="172.5" height="133"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="133" id="paA-Ex-WdN"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.72046858069999997" green="1" blue="0.94955796000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.45199158029999997" green="0.074652831520000004" blue="0.18746504829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <rect key="contentStretch" x="0.5" y="1" width="1" height="1"/>
+                        <constraints>
+                            <constraint firstItem="bBd-ZN-7bh" firstAttribute="centerX" secondItem="hDC-7N-L0C" secondAttribute="centerX" id="07G-jD-ewP"/>
+                            <constraint firstItem="MY6-cj-hWY" firstAttribute="leading" secondItem="hDC-7N-L0C" secondAttribute="leading" id="7QM-Ov-6Oi"/>
+                            <constraint firstItem="bBd-ZN-7bh" firstAttribute="top" secondItem="sQh-7L-wkE" secondAttribute="top" constant="155" id="J7A-h0-2UU"/>
+                            <constraint firstItem="bBd-ZN-7bh" firstAttribute="leading" secondItem="sQh-7L-wkE" secondAttribute="leading" constant="217" id="OtD-WI-xTg"/>
+                            <constraint firstItem="sQh-7L-wkE" firstAttribute="trailing" secondItem="MY6-cj-hWY" secondAttribute="trailing" constant="559" id="eS3-s3-QJD"/>
+                            <constraint firstItem="MY6-cj-hWY" firstAttribute="top" secondItem="sQh-7L-wkE" secondAttribute="top" constant="14" id="gvT-sl-prt"/>
+                            <constraint firstItem="sQh-7L-wkE" firstAttribute="trailing" secondItem="hDC-7N-L0C" secondAttribute="trailing" constant="47" id="kjc-ew-pcP"/>
+                            <constraint firstItem="sQh-7L-wkE" firstAttribute="bottom" secondItem="hDC-7N-L0C" secondAttribute="bottom" constant="77" id="ylv-hz-n1r"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sQh-7L-wkE"/>
+                    </view>
+                    <connections>
+                        <outlet property="password" destination="dN4-aV-KRF" id="Zj9-3b-Shs"/>
+                        <outlet property="userName" destination="0Wt-UZ-bUe" id="cyH-ao-aUZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bEE-yN-1gz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7791.40625" y="-3243.1640625"/>
+        </scene>
+        <!--Signup View Controller-->
+        <scene sceneID="MCK-S6-fQo">
+            <objects>
+                <viewController id="86H-dl-0iX" customClass="SignupViewController" customModule="LoginSignUpMainScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q43-xL-6lq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name" borderStyle="roundedRect" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="65" translatesAutoresizingMaskIntoConstraints="NO" id="j1Z-aZ-GVD">
+                                <rect key="frame" x="20" y="208" width="352" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="47"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Last Name" borderStyle="roundedRect" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="65" translatesAutoresizingMaskIntoConstraints="NO" id="GG5-N1-p3X">
+                                <rect key="frame" x="20" y="323" width="352" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="47"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email or Phone #" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="65" translatesAutoresizingMaskIntoConstraints="NO" id="H6l-4w-5m9">
+                                <rect key="frame" x="20" y="443" width="372" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="42"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="65" translatesAutoresizingMaskIntoConstraints="NO" id="v92-zu-Swm">
+                                <rect key="frame" x="-28" y="695" width="470" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="62"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JjJ-ee-DXm">
+                                <rect key="frame" x="466" y="804" width="115" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.45261900910000002" green="0.029291526870000001" blue="0.25409606750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signupAction:" destination="86H-dl-0iX" eventType="touchUpInside" id="44c-6m-Fns"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edX-p2-aV7">
+                                <rect key="frame" x="63" y="95" width="289" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="79"/>
+                                <color key="textColor" red="0.45199158029999997" green="0.074652831520000004" blue="0.18746504829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Username" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="65" translatesAutoresizingMaskIntoConstraints="NO" id="uTv-l6-ngg">
+                                <rect key="frame" x="-19" y="513" width="470" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="62"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.72046858069999997" green="1" blue="0.94955796000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="lWq-fo-9SU"/>
+                    </view>
+                    <connections>
+                        <outlet property="email" destination="H6l-4w-5m9" id="5wm-3l-IiB"/>
+                        <outlet property="firstname" destination="j1Z-aZ-GVD" id="Z5z-9E-mTh"/>
+                        <outlet property="lastname" destination="GG5-N1-p3X" id="jK9-Yj-ma1"/>
+                        <outlet property="password" destination="v92-zu-Swm" id="Yzp-XH-wWh"/>
+                        <outlet property="username" destination="uTv-l6-ngg" id="BJi-VX-F76"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4OI-x1-z1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7792.753623188406" y="-2565.4017857142858"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pRH-L4-3fJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lfw-GR-DDc" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9fy-kN-YhD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UVN-kT-zf7">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="RCZ-hI-wE6" kind="relationship" relationship="rootViewController" id="v7y-6g-X0s"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nUv-1R-Gtp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7791.40625" y="-3979.1015624999995"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Pencil Logo_ Helping Hand-4" width="16" height="16"/>
+    </resources>
+</document>
